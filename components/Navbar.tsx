@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 
 const navLinks = [
-  { name: "Fx Charater Skill", href: "#project-1" },
+  { name: "Fx Character Skill", href: "#project-1" },
   { name: "Cutscene FX", href: "#project-2" },
   { name: "Roblox FX", href: "#project-3" },
   { name: "FX Showcases", href: "#project-4" },
@@ -51,7 +51,7 @@ export function Navbar() {
           <div className="flex items-center gap-4 lg:gap-8">
             <nav className="hidden md:flex gap-4 lg:gap-6 flex-wrap justify-end">
               {navLinks.map((link) => (
-                <Link
+                <a
                   key={link.name}
                   href={link.href}
                   className={`relative group text-sm tracking-wide transition-all duration-300 ${
@@ -62,7 +62,7 @@ export function Navbar() {
                   <span className={`absolute -bottom-1 left-0 w-full h-[1px] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left ${
                     scrolled ? "bg-white" : "bg-[#0A0A0A]"
                   }`} />
-                </Link>
+                </a>
               ))}
             </nav>
 
@@ -99,13 +99,13 @@ export function Navbar() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: i * 0.1 }}
                 >
-                  <Link
+                  <a
                     href={link.href}
                     onClick={() => setMobileMenuOpen(false)}
                     className="text-4xl font-bold tracking-widest uppercase"
                   >
                     {link.name}
-                  </Link>
+                  </a>
                 </motion.div>
               ))}
             </nav>

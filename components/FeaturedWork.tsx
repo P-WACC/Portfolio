@@ -7,7 +7,7 @@ export const projects = [
   {
     id: 1,
     client: "PROJECT 01",
-    title: "Fx Charater Skill",
+    title: "Fx Character Skill",
     color: "#111111",
     textColor: "#ffffff",
     image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&q=80&w=1600",
@@ -307,8 +307,8 @@ function ProjectSection({ project, setActiveImage }: { project: any, setActiveIm
             </>
           )}
 
-          {/* FX CHARATER SKILL LAYOUT */}
-          {project.title === "Fx Charater Skill" && (
+          {/* Fx Character Skill LAYOUT */}
+          {project.title === "Fx Character Skill" && (
             <div className="w-screen relative left-1/2 -translate-x-1/2 px-6 md:px-12 lg:px-24 xl:px-32 grid grid-cols-1 lg:grid-cols-2 items-center gap-12 mt-8 mb-12">
               <div className="flex flex-col gap-8 order-2 lg:order-1 lg:pr-12">
                  <div className="text-xl leading-relaxed text-[#d1cfc9] font-medium max-w-lg">
@@ -336,7 +336,7 @@ function ProjectSection({ project, setActiveImage }: { project: any, setActiveIm
           )}
 
           {/* OTHER PROJECTS (STATIC HERO / YOUTUBE) */}
-          {project.title !== "Roblox FX" && project.title !== "FX Showcases" && project.title !== "Fx Charater Skill" && (
+          {project.title !== "Roblox FX" && project.title !== "FX Showcases" && project.title !== "Fx Character Skill" && (
             <div className="flex flex-col gap-24">
               {(project.showcases || [{ image: project.image, youtubeId: project.youtubeId, description: project.description }]).map((showcase: any, idx: number) => (
                 <div key={idx} className="w-full">
