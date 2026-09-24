@@ -54,7 +54,7 @@ export function Navbar() {
                 <a
                   key={link.name}
                   href={link.href}
-                  className={`relative group text-sm tracking-wide transition-all duration-300 ${
+                  className={`relative group text-sm tracking-wide uppercase transition-all duration-300 ${
                     scrolled ? "font-bold" : "font-medium"
                   }`}
                 >
