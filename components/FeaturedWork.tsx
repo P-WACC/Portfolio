@@ -19,7 +19,7 @@ export const projects = [
     title: "Cutscene FX",
     color: "#EAE7E1",
     textColor: "#0A0A0A",
-    image: "/portfolio/DantaliaCutscene.mp4",
+    image: "/Portfolio/DantaliaCutscene.mp4",
     cutsceneData: {
       number: "03.1",
       title: "Cinematic cutscenes",
@@ -32,7 +32,7 @@ export const projects = [
     title: "Roblox FX",
     color: "#F5F3EF",
     textColor: "#0A0A0A",
-    image: "/portfolio/10_OpenTreasurebox.mp4",
+    image: "/Portfolio/10_OpenTreasurebox.mp4",
     description: "Handling in-game FX for Roblox using ParticleEmitters to bring conceptual designs to life. Specialized in creating various stylized, real-time effects for both objects and environments.",
   },
   {
@@ -55,11 +55,11 @@ export const projects = [
     year: "2024",
     showcases: [
       {
-        image: "/portfolio/Unreal Miniproject.mp4",
+        image: "/Portfolio/Unreal Miniproject.mp4",
         description: "Developed a complete mini-game, designing and mapping every environment element showcased in the video. The level design was heavily polished, utilizing volumetric fog systems to establish a deeply immersive and realistic atmosphere."
       },
       {
-        image: "/portfolio/Trailer final.mp4",
+        image: "/Portfolio/Trailer final.mp4",
         description: "Focused on real-time shader development, detailed game environment design, and dynamic lighting optimization within Unity.",
         engine: "Unity",
         year: "2025"
@@ -73,38 +73,38 @@ export const robloxCategories = [
     id: "Object FX",
     count: 10,
     items: [
-      { src: "/portfolio/1_RedPortal.mp4", name: "Red Portal" },
-      { src: "/portfolio/2_BluePortal.mp4", name: "Blue Portal" },
-      { src: "/portfolio/3_CleanedFloor.mp4", name: "Cleaned Floor" },
-      { src: "/portfolio/4_Firework.mp4", name: "Firework" },
-      { src: "/portfolio/5_LanternGlow.mp4", name: "Lantern Glow" },
-      { src: "/portfolio/6_ShootingBuble.mp4", name: "Shooting Bubble" },
-      { src: "/portfolio/7_SmokedEngine.mp4", name: "Smoked Engine" },
-      { src: "/portfolio/8_Fountain.mp4", name: "Fountain" },
-      { src: "/portfolio/9_HalloweenSelectedPart.mp4", name: "Halloween Selected" },
-      { src: "/portfolio/10_OpenTreasurebox.mp4", name: "Open Treasurebox" }
+      { src: "/Portfolio/1_RedPortal.mp4", name: "Red Portal" },
+      { src: "/Portfolio/2_BluePortal.mp4", name: "Blue Portal" },
+      { src: "/Portfolio/3_CleanedFloor.mp4", name: "Cleaned Floor" },
+      { src: "/Portfolio/4_Firework.mp4", name: "Firework" },
+      { src: "/Portfolio/5_LanternGlow.mp4", name: "Lantern Glow" },
+      { src: "/Portfolio/6_ShootingBuble.mp4", name: "Shooting Bubble" },
+      { src: "/Portfolio/7_SmokedEngine.mp4", name: "Smoked Engine" },
+      { src: "/Portfolio/8_Fountain.mp4", name: "Fountain" },
+      { src: "/Portfolio/9_HalloweenSelectedPart.mp4", name: "Halloween Selected" },
+      { src: "/Portfolio/10_OpenTreasurebox.mp4", name: "Open Treasurebox" }
     ]
   },
   {
     id: "Jetpack",
     count: 5,
     items: [
-      { src: "/portfolio/Jetpack/1_Jetpack.mp4", name: "Jetpack" },
-      { src: "/portfolio/Jetpack/2_BrokenJetpack.mp4", name: "Broken Jetpack" },
-      { src: "/portfolio/Jetpack/3_RichAuraJetpack.mp4", name: "Rich Aura Jetpack" },
-      { src: "/portfolio/Jetpack/4_OrangeAuraJetpack.mp4", name: "Orange Aura Jetpack" },
-      { src: "/portfolio/Jetpack/5_BlueAuraJectpack.mp4", name: "Blue Aura Jetpack" }
+      { src: "/Portfolio/Jetpack/1_Jetpack.mp4", name: "Jetpack" },
+      { src: "/Portfolio/Jetpack/2_BrokenJetpack.mp4", name: "Broken Jetpack" },
+      { src: "/Portfolio/Jetpack/3_RichAuraJetpack.mp4", name: "Rich Aura Jetpack" },
+      { src: "/Portfolio/Jetpack/4_OrangeAuraJetpack.mp4", name: "Orange Aura Jetpack" },
+      { src: "/Portfolio/Jetpack/5_BlueAuraJectpack.mp4", name: "Blue Aura Jetpack" }
     ]
   },
   {
     id: "Environment",
     count: 5,
     items: [
-      { src: "/portfolio/Environment/1_Petals.mp4", name: "Petals" },
-      { src: "/portfolio/Environment/2_WaterTrails.mp4", name: "Water Trails" },
-      { src: "/portfolio/Environment/3_ConcertStage.mp4", name: "Concert Stage" },
-      { src: "/portfolio/Environment/4_HalloweenEnvironment.mp4", name: "Halloween Env" },
-      { src: "/portfolio/Environment/5_ChristmasEnvironment.mp4", name: "Christmas Env" }
+      { src: "/Portfolio/Environment/1_Petals.mp4", name: "Petals" },
+      { src: "/Portfolio/Environment/2_WaterTrails.mp4", name: "Water Trails" },
+      { src: "/Portfolio/Environment/3_ConcertStage.mp4", name: "Concert Stage" },
+      { src: "/Portfolio/Environment/4_HalloweenEnvironment.mp4", name: "Halloween Env" },
+      { src: "/Portfolio/Environment/5_ChristmasEnvironment.mp4", name: "Christmas Env" }
     ]
   }
 ];
@@ -114,30 +114,30 @@ const fxShowcaseCategories = [
     id: "Object FX",
     count: 18,
     items: [
-      { src: "/portfolio/FxShowcase/ObjectFX/RealisticWater.mp4", name: "Realistic Water" },
-      { src: "/portfolio/FxShowcase/ObjectFX/Smoke2.mp4", name: "Smoke" },
-      { src: "/portfolio/FxShowcase/ObjectFX/Hyperdrive.mp4", name: "Hyperdrive" },
-      { src: "/portfolio/FxShowcase/ObjectFX/Rain1.mp4", name: "Rain" },
-      { src: "/portfolio/FxShowcase/ObjectFX/Lightning2.mp4", name: "Lightning" },
-      { src: "/portfolio/FxShowcase/ObjectFX/LootDrop.mp4", name: "Loot Drop" },
-      { src: "/portfolio/FxShowcase/ObjectFX/Impact.mp4", name: "Impact" },
-      { src: "/portfolio/FxShowcase/ObjectFX/Implotion.mp4", name: "Implosion" },
-      { src: "/portfolio/FxShowcase/ObjectFX/Explotion.mp4", name: "Explosion" },
-      { src: "/portfolio/FxShowcase/ObjectFX/Projectile.mp4", name: "Projectile" },
-      { src: "/portfolio/FxShowcase/ObjectFX/FlameThrower.mp4", name: "Flame Thrower" },
-      { src: "/portfolio/FxShowcase/ObjectFX/Heal1.mp4", name: "Heal" },
-      { src: "/portfolio/FxShowcase/ObjectFX/Hurt1.mp4", name: "Hurt" },
-      { src: "/portfolio/FxShowcase/ObjectFX/ShockWave.mp4", name: "Shock Wave" },
-      { src: "/portfolio/FxShowcase/ObjectFX/Tornado.mp4", name: "Tornado" },
-      { src: "/portfolio/FxShowcase/ObjectFX/PointCache1.mp4", name: "Point Cache" },
-      { src: "/portfolio/FxShowcase/ObjectFX/SDF1.mp4", name: "SDF" },
-      { src: "/portfolio/FxShowcase/ObjectFX/Electric.mp4", name: "Electric" }
+      { src: "/Portfolio/FxShowcase/ObjectFX/RealisticWater.mp4", name: "Realistic Water" },
+      { src: "/Portfolio/FxShowcase/ObjectFX/Smoke2.mp4", name: "Smoke" },
+      { src: "/Portfolio/FxShowcase/ObjectFX/Hyperdrive.mp4", name: "Hyperdrive" },
+      { src: "/Portfolio/FxShowcase/ObjectFX/Rain1.mp4", name: "Rain" },
+      { src: "/Portfolio/FxShowcase/ObjectFX/Lightning2.mp4", name: "Lightning" },
+      { src: "/Portfolio/FxShowcase/ObjectFX/LootDrop.mp4", name: "Loot Drop" },
+      { src: "/Portfolio/FxShowcase/ObjectFX/Impact.mp4", name: "Impact" },
+      { src: "/Portfolio/FxShowcase/ObjectFX/Implotion.mp4", name: "Implosion" },
+      { src: "/Portfolio/FxShowcase/ObjectFX/Explotion.mp4", name: "Explosion" },
+      { src: "/Portfolio/FxShowcase/ObjectFX/Projectile.mp4", name: "Projectile" },
+      { src: "/Portfolio/FxShowcase/ObjectFX/FlameThrower.mp4", name: "Flame Thrower" },
+      { src: "/Portfolio/FxShowcase/ObjectFX/Heal1.mp4", name: "Heal" },
+      { src: "/Portfolio/FxShowcase/ObjectFX/Hurt1.mp4", name: "Hurt" },
+      { src: "/Portfolio/FxShowcase/ObjectFX/ShockWave.mp4", name: "Shock Wave" },
+      { src: "/Portfolio/FxShowcase/ObjectFX/Tornado.mp4", name: "Tornado" },
+      { src: "/Portfolio/FxShowcase/ObjectFX/PointCache1.mp4", name: "Point Cache" },
+      { src: "/Portfolio/FxShowcase/ObjectFX/SDF1.mp4", name: "SDF" },
+      { src: "/Portfolio/FxShowcase/ObjectFX/Electric.mp4", name: "Electric" }
     ]
   },
   {
     id: "PCG Coding",
     items: [
-      { src: "/portfolio/FxShowcase/PCG.png", name: "PCG Using C# Script" }
+      { src: "/Portfolio/FxShowcase/PCG.png", name: "PCG Using C# Script" }
     ]
   }
 ];
