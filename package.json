@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "pixzen",
   "version": "0.1.0",
   "private": true,
@@ -15,9 +15,9 @@
     "gsap": "^3.12.5",
     "lenis": "^1.1.13",
     "lucide-react": "^1.47.0",
-    "next": "^16.3.6",
-    "react": "19.0.0",
-    "react-dom": "19.0.0",
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "split-type": "^0.3.4"
   },
   "devDependencies": {
@@ -28,5 +28,9 @@
     "postcss": "^8",
     "tailwindcss": "^4.0.0",
     "typescript": "^5"
+  },
+  "overrides": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   }
 }
