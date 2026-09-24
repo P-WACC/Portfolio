@@ -45,7 +45,7 @@ export function Hero() {
             transition={{ duration: 1.5 }}
             className="absolute inset-0 w-full h-full"
           >
-            {currentMedia.endsWith('.mp4') ? (
+            {currentMedia?.endsWith('.mp4') ? (
               <video autoPlay loop muted playsInline className="w-full h-full object-cover">
                 <source src={currentMedia} type="video/mp4" />
               </video>
