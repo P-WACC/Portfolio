@@ -1,0 +1,17 @@
+import { Navbar } from "@/components/Navbar";
+import { Hero } from "@/components/Hero";
+import { FeaturedWork } from "@/components/FeaturedWork";
+import { About } from "@/components/About";
+import { Footer } from "@/components/Footer";
+
+export default function Home() {
+  return (
+    <main className="flex flex-col min-h-screen">
+      <Navbar />
+      <Hero />
+      <FeaturedWork />
+      <About />
+      <Footer />
+    </main>
+  );
+}
