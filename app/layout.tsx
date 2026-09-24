@@ -3,8 +3,8 @@ import "./globals.css";
 import { LenisProvider } from "@/components/LenisProvider";
 
 export const metadata: Metadata = {
-  title: "PIXZEN | Elite AI Agency",
-  description: "World-class futuristic AI agency.",
+  title: "WACHIRAWIT | PORTFOLIO | TECHNICAL ARTIST",
+  description: "Technical Artist Portfolio showcasing real-time VFX, environments, and animations.",
 };
 
 export default function RootLayout({
